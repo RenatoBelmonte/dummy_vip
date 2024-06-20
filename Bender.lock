@@ -1,0 +1,10 @@
+package:
+  name: dummy_vip
+  authors:
+    - "Renato Belmonte <renato.belmonte@studenti.polito.it"
+    
+sources: 
+  #dummy_vip
+  files:
+    - rtl/dummy_submodule.sv
+    - rtl/dummy_top.sv
