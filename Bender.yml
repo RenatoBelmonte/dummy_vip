@@ -2,6 +2,8 @@ package:
   name: dummy_vip
   authors:
     - "Renato Belmonte <renato.belmonte@studenti.polito.it"
+dependencies:
+  common_cells:           { git: "https://github.com/pulp-platform/common_cells.git", version: 1.21.0 }
     
 sources: 
   #dummy_vip
@@ -10,6 +12,4 @@ sources:
   files:
     - rtl/dummy_submodule.sv
     - rtl/dummy_top.sv
-  dependencies:
-  common_cells:           { git: "https://github.com/pulp-platform/common_cells.git", version: 1.21.0 }
     
