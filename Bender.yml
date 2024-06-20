@@ -8,7 +8,7 @@ dependencies:
 sources: 
   #dummy_vip
   deines:
-    ENABLE_DUMMY_IP:
+    ENABLE_DUMMY_IP: ~ 
   files:
     - rtl/dummy_submodule.sv
     - rtl/dummy_top.sv
