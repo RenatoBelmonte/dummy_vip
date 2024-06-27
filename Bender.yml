@@ -7,7 +7,7 @@ dependencies:
     
 sources: 
   #dummy_vip
-  deines:
+  defines:
     ENABLE_DUMMY_VIP: ~ 
   files:
     - rtl/dummy_submodule.sv
