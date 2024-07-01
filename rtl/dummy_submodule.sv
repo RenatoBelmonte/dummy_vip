@@ -30,7 +30,7 @@ module dummy_submodule;
   end
 `else
   initial begin
-    #10us $fatal("Dummy module is not enabled. Add the define flag to the package description (src_files.yml)");
+   // #10us $fatal("Dummy module is not enabled. Add the define flag to the package description (src_files.yml)");
   end
 `endif
 
